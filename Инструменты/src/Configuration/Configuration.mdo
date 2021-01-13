@@ -7,6 +7,7 @@
   </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <managedApplicationModule>Extended</managedApplicationModule>
     <defaultLanguage>Checked</defaultLanguage>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="44154cfc-e04b-4c2e-94cc-83152eb460a6"/>
@@ -20,7 +21,7 @@
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Центр прикладных разработок&quot;</vendor>
-  <version>1.4.6</version>
+  <version>1.4.7</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -54,12 +55,29 @@
   <commonPictures>CommonPicture.УИ_РедакторОбъектовБазыДанных</commonPictures>
   <commonPictures>CommonPicture.УИ_JSON</commonPictures>
   <commonPictures>CommonPicture.УИ_Информация</commonPictures>
+  <commonPictures>CommonPicture.УИ_НаборДанныхСКДОбъект</commonPictures>
+  <commonPictures>CommonPicture.УИ_НаборДанныхСКДОбъединение</commonPictures>
+  <commonPictures>CommonPicture.УИ_НаборДанныхСКДЗапрос</commonPictures>
+  <commonPictures>CommonPicture.УИ_Число</commonPictures>
+  <commonPictures>CommonPicture.УИ_Строка</commonPictures>
+  <commonPictures>CommonPicture.УИ_Дата</commonPictures>
+  <commonPictures>CommonPicture.УИ_Булево</commonPictures>
+  <commonPictures>CommonPicture.УИ_УникальныйИдентификатор</commonPictures>
+  <commonPictures>CommonPicture.УИ_Null</commonPictures>
+  <commonPictures>CommonPicture.УИ_ПроизвольныйТип</commonPictures>
+  <commonPictures>CommonPicture.УИ_ВидДвиженияНакопления</commonPictures>
+  <commonPictures>CommonPicture.УИ_ТаблицаЗначений</commonPictures>
+  <commonPictures>CommonPicture.УИ_СписокЗначений</commonPictures>
+  <commonPictures>CommonPicture.УИ_Массив</commonPictures>
+  <commonPictures>CommonPicture.УИ_Тип</commonPictures>
+  <commonPictures>CommonPicture.УИ_МоментВремени</commonPictures>
+  <commonPictures>CommonPicture.УИ_Граница</commonPictures>
   <roles>Role.УИ_УниверсальныеИнструменты</roles>
   <commonTemplates>CommonTemplate.УИ_КомпонентаРаботыСРегулярнымиВыражениямиRegExБраузеры</commonTemplates>
   <commonTemplates>CommonTemplate.УИ_КомпонентаРаботыСРегулярнымиВыражениямиRegEx</commonTemplates>
   <commonTemplates>CommonTemplate.УИ_КомпонентаПоискаСтрок</commonTemplates>
-  <commonTemplates>CommonTemplate.УИ_AceMode1c</commonTemplates>
-  <commonTemplates>CommonTemplate.УИ_AceThemeOnes</commonTemplates>
+  <commonTemplates>CommonTemplate.УИ_Ace</commonTemplates>
+  <commonTemplates>CommonTemplate.УИ_КомпонентаДляРаботыСБуферомОбмена</commonTemplates>
   <commonModules>CommonModule.УИ_РаботаСФормами</commonModules>
   <commonModules>CommonModule.УИ_ДлительныеОперацииВызовСервера</commonModules>
   <commonModules>CommonModule.УИ_ДлительныеОперацииГлобальный</commonModules>
@@ -78,9 +96,11 @@
   <commonModules>CommonModule.УИ_АлгоритмыКлиентСервер</commonModules>
   <commonModules>CommonModule.УИ_КоннекторHTTP</commonModules>
   <commonModules>CommonModule.УИ_</commonModules>
-  <commonModules>CommonModule.УИ_РаскрашиваниеКодаКлиентСервер</commonModules>
   <commonModules>CommonModule.УИ_РегулярныеВыраженияКлиентСервер</commonModules>
-  <commonModules>CommonModule.УИ_РедакторКодаКлиентСервер</commonModules>
+  <commonModules>CommonModule.УИ_РедакторКодаСервер</commonModules>
+  <commonModules>CommonModule.УИ_РедакторКодаКлиент</commonModules>
+  <commonModules>CommonModule.УИ_БуферОбменаКлиент</commonModules>
+  <commonModules>CommonModule.УИ_ПарсерXML</commonModules>
   <httpServices>HTTPService.УИ_ПубликуемыеФункции</httpServices>
   <commonForms>CommonForm.УИ_ДлительнаяОперация</commonForms>
   <commonForms>CommonForm.УИ_ФормаТаблицыЗначений</commonForms>
@@ -89,6 +109,9 @@
   <commonForms>CommonForm.УИ_ФормаХранилищаЗначения</commonForms>
   <commonForms>CommonForm.УИ_ФормаВыбораТипаОбъекта</commonForms>
   <commonForms>CommonForm.УИ_ПараметрыЗаписи</commonForms>
+  <commonForms>CommonForm.УИ_ФормаРедактированияСпискаЗначений</commonForms>
+  <commonForms>CommonForm.УИ_РедактированиеТипаЗначения</commonForms>
+  <commonForms>CommonForm.УИ_РедакторТаблицыЗначений</commonForms>
   <catalogs>Catalog.УИ_Алгоритмы</catalogs>
   <reports>Report.УИ_КонсольОтчетов</reports>
   <dataProcessors>DataProcessor.УИ_ГрупповаяОбработкаСправочниковИДокументов</dataProcessors>
@@ -120,4 +143,5 @@
   <dataProcessors>DataProcessor.УИ_РедакторJSON</dataProcessors>
   <dataProcessors>DataProcessor.УИ_РедакторHTML</dataProcessors>
   <dataProcessors>DataProcessor.УИ_УниверсальныйОбменДаннымиXML</dataProcessors>
+  <dataProcessors>DataProcessor.УИ_РедакторСКД</dataProcessors>
 </mdclass:Configuration>
