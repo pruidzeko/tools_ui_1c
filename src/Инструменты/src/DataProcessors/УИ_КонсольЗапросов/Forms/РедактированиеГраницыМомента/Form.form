@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДатаМомента</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДатаМомента</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДатаМоментаРасширеннаяПодсказка</name>
@@ -63,10 +61,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СсылкаМомента</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СсылкаМомента</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -159,10 +155,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ВидГраницы</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ВидГраницы</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВидГраницыРасширеннаяПодсказка</name>
@@ -221,10 +215,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЗначениеГраницы</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЗначениеГраницы</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЗначениеГраницыРасширеннаяПодсказка</name>
@@ -419,6 +411,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <width>50</width>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -545,7 +538,7 @@
         <name>КомандаОК</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

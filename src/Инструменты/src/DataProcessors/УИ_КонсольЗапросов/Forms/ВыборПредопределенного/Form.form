@@ -131,10 +131,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ТипОбъекта</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ТипОбъекта</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -188,10 +186,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ИмяОбъекта</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИмяОбъекта</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -245,10 +241,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Элемент</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Элемент</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -572,9 +566,7 @@
       <value>Элемент</value>
     </title>
     <id>4</id>
-    <valueType>
-      <types>AnyRef</types>
-    </valueType>
+    <valueType/>
     <view>
       <common>true</common>
     </view>
@@ -620,7 +612,7 @@
         <name>КомандаВставитьИмя</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаВставитьЗНАЧЕНИЕ</name>
@@ -641,7 +633,7 @@
         <name>КомандаВставитьЗНАЧЕНИЕ</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаВставитьССЫЛКА</name>
@@ -662,7 +654,7 @@
         <name>КомандаВставитьССЫЛКА</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаВставитьПустаяСсылка</name>
@@ -683,7 +675,7 @@
         <name>КомандаВставитьПустаяСсылка</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

@@ -55,10 +55,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>КодДляКопирования</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>КодДляКопирования</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -93,10 +91,6 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <handlers>
-          <event>ChoiceProcessing</event>
-          <name>КодДляКопированияОбработкаВыбора</name>
-        </handlers>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <wrap>true</wrap>
@@ -176,11 +170,11 @@
       </extendedTooltip>
       <commandName>Form.StandardCommand.Close</commandName>
       <representation>PictureAndText</representation>
-      <onlyInAllActions>false</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
